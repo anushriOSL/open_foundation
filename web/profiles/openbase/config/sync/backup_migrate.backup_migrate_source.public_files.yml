@@ -1,0 +1,12 @@
+uuid: ff9d2f74-1c04-4daf-876c-ed9be519212f
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PY9HA-hogF4_qq5gZ-TqZDTixx170-APxTcq4rpa014
+id: public_files
+label: 'Public Files Directory'
+type: DrupalFiles
+config:
+  name: 'Public Files Directory'
+  directory: 'public://'
