@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
+class ComposerStaticInitd64555087ad790e402cba1be173fd63d
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -248,8 +248,8 @@ class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'phootwork\\lang\\' => 
         array (
@@ -469,8 +469,8 @@ class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -514,8 +514,8 @@ class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
         ),
         'PHPStan\\' => 
         array (
-            0 => __DIR__ . '/..' . '/phpstan/phpstan-deprecation-rules/src',
-            1 => __DIR__ . '/..' . '/phpstan/phpstan-phpunit/src',
+            0 => __DIR__ . '/..' . '/phpstan/phpstan-phpunit/src',
+            1 => __DIR__ . '/..' . '/phpstan/phpstan-deprecation-rules/src',
         ),
         'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
         array (
@@ -671,8 +671,8 @@ class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/common/src',
-            1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+            1 => __DIR__ . '/..' . '/doctrine/common/src',
         ),
         'Dflydev\\DotAccessData\\' => 
         array (
@@ -752,8 +752,8 @@ class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
         ),
         'Behat\\Mink\\Driver\\' => 
         array (
-            0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
-            1 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
+            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
+            1 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
         ),
         'Behat\\Mink\\' => 
         array (
@@ -1487,10 +1487,10 @@ class ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit553b65ae747fb15c8e03500e7a9cc650::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd64555087ad790e402cba1be173fd63d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd64555087ad790e402cba1be173fd63d::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitd64555087ad790e402cba1be173fd63d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitd64555087ad790e402cba1be173fd63d::$classMap;
 
         }, null, ClassLoader::class);
     }

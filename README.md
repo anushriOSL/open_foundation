@@ -1,20 +1,20 @@
-[![](https://www.drupal.org/files/styles/grid-4-2x/public/OSL%20Logo%202020-01.png?itok=0Yve8wuf)](https://www.drupal.org/project/openbase)
+[![](https://www.drupal.org/files/styles/grid-4-2x/public/OSL%20Logo%202020-01.png?itok=0Yve8wuf)](https://www.drupal.org/project/open_foundation)
 
 
-## OpenBase - A Drupal pre-built package with essential modules and a theme.
+## Open Foundation - A Drupal pre-built package with essential modules and a theme.
 
-Project template for [OpenBase distribution](https://www.drupal.org/project/openbase).
+Project template for [Open Foundation distribution](https://www.drupal.org/project/open_foundation).
 
-## Create a OpenBase project with [Composer](https://getcomposer.org/download/):
+## Create a Open Foundation project with [Composer](https://getcomposer.org/download/):
 
-To install the most recent stable release of **OpenBase `1.0.x`** run this command:
+To install the most recent stable release of **Open Foundation `1.0.x`** run this command:
 ```
-composer create-project osl/openbase PROJECT_DIR_NAME
+composer create-project osl/open_foundation PROJECT_DIR_NAME
 ```
 
-To install the dev version of **OpenBase `1.0.x`** run this command:
+To install the dev version of **Open Foundation `1.0.x`** run this command:
 ```
-composer create-project osl/openbase:1.0.x-dev PROJECT_DIR_NAME
+composer create-project osl/open_foundation:1.0.x-dev PROJECT_DIR_NAME
 ```
 
 ## Local development with Lando

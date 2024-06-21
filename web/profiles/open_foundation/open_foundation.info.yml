@@ -1,0 +1,8 @@
+name: Open Foundation
+type: profile
+description: 'Open Foundation is a Drupal starter kit that comes pre-installed with a selection of essential modules and a theme.'
+core_version_requirement: '>=10'
+project: open_foundation
+themes:
+  - gin
+version: 1.0.x

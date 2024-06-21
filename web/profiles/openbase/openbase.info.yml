@@ -1,8 +1,0 @@
-name: Openbase
-type: profile
-description: 'Openbase is a Drupal starter kit that comes pre-installed with a selection of essential modules and a theme.'
-core_version_requirement: '>=10'
-project: openbase
-themes:
-  - gin
-version: 1.0.x
